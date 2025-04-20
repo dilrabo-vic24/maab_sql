@@ -13,7 +13,7 @@ CREATE TABLE Member(
 );
 
 CREATE TABLE Loan(
-    load_id INT PRIMARY KEY,
+    loan_id INT PRIMARY KEY,
     book_id INT FOREIGN KEY REFERENCES Book(book_id),
     member_id INT FOREIGN KEY REFERENCES Member(member_id), 
     loan_date DATE NOT NULL
