@@ -10,7 +10,7 @@ GO
 BULK INSERT worker
 FROM '/home/dilrabo/maab_sql/lesson-2/homework/task.csv'
 WITH (
-    FORMAT = 'CSV',
+    FORMAT = 'csv',
     FIRSTROW = 2,
     FIELDTERMINATOR = ',', 
     ROWTERMINATOR = '\n'
