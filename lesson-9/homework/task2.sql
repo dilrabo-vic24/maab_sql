@@ -30,11 +30,3 @@ declare @n Int = 10
     WHERE number < @n 
 )
 SELECT * from factorialCte
-
-SELECT 1 as number 
-union all
-SELECT 2 as number
-union ALL
-select 1*2*3 as number 
-union ALL
-SELECT 1*2*3*4 as number 
